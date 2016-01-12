@@ -1,0 +1,869 @@
+﻿[2016.01.12-10.34.31:639][  0]Log file open, 01/12/16 11:34:31
+[2016.01.12-10.34.31:639][  0]LogInit:Display: Running engine for game: Cialon
+[2016.01.12-10.34.31:639][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.12-10.34.31:639][  0]LogInit:Display: RandInit(-501120132) SRandInit(-501120130).
+[2016.01.12-10.34.31:639][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.12-10.34.31:639][  0]LogStats: Stats thread started at 0.147282
+[2016.01.12-10.34.31:639][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.01.12-10.34.31:639][  0]LogInit: API Version: 2758231
+[2016.01.12-10.34.31:639][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2016.01.12-10.34.31:639][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.12-10.34.31:639][  0]LogInit: Build Configuration: Development
+[2016.01.12-10.34.31:639][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.12-10.34.31:639][  0]LogInit: Command line:  
+[2016.01.12-10.34.31:639][  0]LogInit: Base directory: C:/Program Files/unreal/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.12-10.34.31:639][  0]LogInit: Rocket: 1
+[2016.01.12-10.34.31:667][  0]LogInit: Using libcurl 7.41.0
+[2016.01.12-10.34.31:667][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.12-10.34.31:667][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.12-10.34.31:667][  0]LogInit:  - other features:
+[2016.01.12-10.34.31:667][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.12-10.34.31:667][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.12-10.34.31:667][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.12-10.34.31:667][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.12-10.34.31:667][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.12-10.34.31:667][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.12-10.34.31:667][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.12-10.34.31:667][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.12-10.34.31:667][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.12-10.34.31:667][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.12-10.34.31:717][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.12-10.34.31:724][  0]LogInit: Object subsystem initialized
+[2016.01.12-10.34.31:725][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.12-10.34.31:725][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.12-10.34.31:753][  0]LogInit: Computer: HP02-201
+[2016.01.12-10.34.31:753][  0]LogInit: User: student
+[2016.01.12-10.34.31:753][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.12-10.34.31:753][  0]LogInit: High frequency timer resolution =3.215350 MHz
+[2016.01.12-10.34.31:753][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.12-10.34.31:753][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.12-10.34.31:753][  0]LogMemory: Process Physical Memory: 57.14 MB used, 57.14 MB peak
+[2016.01.12-10.34.31:753][  0]LogMemory: Process Virtual Memory: 58.96 MB used, 58.96 MB peak
+[2016.01.12-10.34.31:753][  0]LogMemory: Physical Memory: 2879.29 MB used, 8115.91 MB total
+[2016.01.12-10.34.31:753][  0]LogMemory: Virtual Memory: 372.14 MB used, 134217728.00 MB total
+[2016.01.12-10.34.31:998][  0]LogTextLocalizationManager: No translations for ('pl-PL') exist, falling back to 'en' for localization and internationalization data.
+[2016.01.12-10.34.32:576][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro 1000M (Feature Level 11_0)
+[2016.01.12-10.34.32:576][  0]LogD3D11RHI: Adapter has 1984MB of dedicated video memory, 0MB of dedicated system memory, and 4057MB of shared system memory, 1 output[s]
+[2016.01.12-10.34.32:577][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.12-10.34.32:577][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4057MB of shared system memory, 0 output[s]
+[2016.01.12-10.34.32:577][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.12-10.34.32:582][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.12-10.34.32:582][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.12-10.34.32:596][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.12-10.34.32:613][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (F:/UE ProjektyPC/Cialon/Projekt/Cialon/Intermediate/Shaders/WorkingDirectory/12136/).
+[2016.01.12-10.34.32:614][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/student/AppData/Local/Temp/UnrealShaderWorkingDir/A5C2A943444877E002DCA7BF38E969A3/'.
+[2016.01.12-10.34.32:614][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.12-10.34.38:210][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.12-10.34.38:220][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.12-10.34.38:228][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.12-10.34.38:235][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.12-10.34.38:243][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.12-10.34.38:248][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.12-10.34.38:251][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.12-10.34.38:255][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.12-10.34.38:258][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.12-10.34.38:262][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.12-10.34.38:265][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.12-10.34.38:274][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.12-10.34.38:274][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.12-10.34.38:275][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.12-10.34.38:331][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.12-10.34.38:334][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.12-10.34.38:354][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.12-10.34.38:379][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.12-10.34.38:379][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.12-10.34.38:824][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.12-10.34.39:129][  0]LogDerivedDataCache: Loaded boot cache 0.30s 41MB C:/Users/student/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.12-10.34.39:129][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/student/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.12-10.34.39:129][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/UE ProjektyPC/Cialon/Projekt/Cialon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.12-10.34.39:129][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.12-10.34.39:130][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/UE ProjektyPC/Cialon/Projekt/Cialon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.12-10.34.39:130][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.12-10.34.39:217][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.12-10.34.39:229][  0]LogDerivedDataCache: Using Local data cache path C:/Users/student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.12-10.34.42:437][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.12-10.34.42:439][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.12-10.34.42:575][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.12-10.34.42:575][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.12-10.34.42:880][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.12-10.34.56:489][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.12-10.34.56:821][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2016.01.12-10.34.57:239][  0]SourceControl: Info Source control is disabled
+[2016.01.12-10.34.57:240][  0]SourceControl: Info Source control is disabled
+[2016.01.12-10.34.57:277][  0]SourceControl: Info Source control is disabled
+[2016.01.12-10.34.57:327][  0]SourceControl: Info Source control is disabled
+[2016.01.12-10.34.58:200][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.01.12-10.34.58:200][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.01.12-10.34.58:341][  0]LogEngine: Initializing Engine...
+[2016.01.12-10.34.58:344][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.12-10.34.58:361][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.12-10.34.58:523][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.12-10.34.58:543][  0]LogInit: XAudio2 using 'Głośniki / Słuchawki (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.12-10.34.58:563][  0]LogInit: FAudioDevice initialized.
+[2016.01.12-10.34.58:608][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/student/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.12-10.34.58:614][  0]LogInit: Texture streaming: Enabled
+[2016.01.12-10.34.58:625][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.12-10.34.58:625][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.01.12-10.34.58:625][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7fc624b74d2869ad42650687e41d6443|3ee82303610d449197caf22d95a42cfa|f4818922-f3f6-432f-a7ea-214803ef4625
+[2016.01.12-10.34.58:625][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.12-10.34.58:766][  0]LogInit: Transaction tracking system initialized
+[2016.01.12-10.34.58:993][  0]BlueprintLog: New page: Editor Load
+[2016.01.12-10.35.00:827][  0]LocalizationService: Info Localization service is disabled
+[2016.01.12-10.35.01:886][  0]LogConsoleResponse:Display: 
+[2016.01.12-10.35.02:400][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.12-10.35.03:078][  0]LogFileCache: Scanning file cache for directory 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/' took 0.02s
+[2016.01.12-10.35.03:101][  0]SourceControl: Info Source control is disabled
+[2016.01.12-10.35.03:101][  0]Cmd: MAP LOAD FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.12-10.35.03:102][  0]LightingResults: New page: Lighting Build
+[2016.01.12-10.35.03:105][  0]MapCheck: New page: Map Check
+[2016.01.12-10.35.03:105][  0]LightingResults: New page: Lighting Build
+[2016.01.12-10.35.03:117][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290B8672AC0
+[2016.01.12-10.35.06:935][  0]LogAIModule: Creating AISystem for world LevelStartowy
+[2016.01.12-10.35.07:648][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.12-10.35.07:649][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.12-10.35.07:721][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.986ms to complete.
+[2016.01.12-10.35.07:721][  0]LogFileHelpers: Loading map 'LevelStartowy' took 4.620
+[2016.01.12-10.35.07:971][  0]LogCollectionManager: Loaded 0 collections in 0.002827 seconds
+[2016.01.12-10.35.08:010][  0]LogFileCache: Scanning file cache for directory 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/Collections/' took 0.01s
+[2016.01.12-10.35.08:010][  0]LogFileCache: Scanning file cache for directory 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Developers/student/Collections/' took 0.01s
+[2016.01.12-10.35.08:010][  0]LogFileCache: Scanning file cache for directory 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Collections/' took 0.01s
+[2016.01.12-10.35.08:010][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.01.12-10.35.08:018][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 1893 classes and 338 folders.
+[2016.01.12-10.35.08:027][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.01.12-10.35.09:520][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.01.12-10.35.09:548][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.01.12-10.35.09:679][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.12-10.35.09:685][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.12-10.35.09:707][  0]LogLoad: Full Startup: 38.98 seconds (BP compile: 0.19 seconds)
+[2016.01.12-10.35.10:053][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.12-10.35.10:054][  0]LoadErrors:Error: Error /Game/LevelStartowy : Failed import for Function /Game/Blueprints/Lamp_Button.Lamp_Button_C:Button_Is_On__DelegateSignature
+[2016.01.12-10.35.10:054][  0]LoadErrors:Error: Error /Game/LevelStartowy : Failed import for MulticastDelegateProperty /Game/Blueprints/Lamp_Button.Lamp_Button_C:Button_Is_On
+[2016.01.12-10.35.10:171][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.01.12-10.35.10:394][  0]LogRenderer: Reallocating scene render targets to support 1400x808 (Frame:2).
+[2016.01.12-10.35.10:501][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.01.12-10.35.11:525][  4]LogAssetRegistry: Asset discovery search completed in 14.7154 seconds
+[2016.01.12-10.35.11:525][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.12-10.35.11:525][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2016.01.12-10.35.19:798][172]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.35.19:798][172]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.12-10.35.19:798][172]PIE: New page: PIE session: LevelStartowy (Jan 12, 2016, 12:35:19 PM)
+[2016.01.12-10.35.19:798][172]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelStartowy
+[2016.01.12-10.35.19:832][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033562s)
+[2016.01.12-10.35.19:833][172]LogAIModule: Creating AISystem for world LevelStartowy
+[2016.01.12-10.35.19:833][172]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2016.01.12-10.35.19:833][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelStartowy.LevelStartowy to /Game/UEDPIE_0_LevelStartowy.LevelStartowy (0.034798s)
+[2016.01.12-10.35.19:858][172]LogInit: XAudio2 using 'Głośniki / Słuchawki (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.12-10.35.19:874][172]LogInit: FAudioDevice initialized.
+[2016.01.12-10.35.20:300][172]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.12-10.35.20:318][172]LogWorld: Bringing World /Game/UEDPIE_0_LevelStartowy.LevelStartowy up for play (max tick rate 0) at 2016.01.12-11.35.20
+[2016.01.12-10.35.20:318][172]LogActor:Warning: GameSession /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.35.20:318][172]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.35.20:319][172]LogWorld: Bringing up level for play took: 0.016823
+[2016.01.12-10.35.20:324][172]PIE:Warning: Warning The widget 'GameHUD_C' was already added to the screen.
+[2016.01.12-10.35.20:324][172]PIE: Info Play in editor start time for /Game/UEDPIE_0_LevelStartowy 1.182
+[2016.01.12-10.35.20:325][172]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.35.35:923][738]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.35.35:982][738]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.35.36:012][738]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290AAA65800
+[2016.01.12-10.35.53:486][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelStartowy" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.12-10.35.54:565][465]LogSavePackage: Save=1049.762207ms
+[2016.01.12-10.35.54:566][465]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/LevelStartowy3BEA021C4127D46CFA7607A75079DEE3.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap'
+[2016.01.12-10.35.54:569][465]LogSavePackage: Total save time: 1067.817811ms
+[2016.01.12-10.35.54:569][465]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap
+[2016.01.12-10.35.55:077][486]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.35.55:077][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.12-10.35.55:077][486]PIE: New page: PIE session: LevelStartowy (Jan 12, 2016, 12:35:55 PM)
+[2016.01.12-10.35.55:077][486]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelStartowy
+[2016.01.12-10.35.55:110][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033629s)
+[2016.01.12-10.35.55:111][486]LogAIModule: Creating AISystem for world LevelStartowy
+[2016.01.12-10.35.55:111][486]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2016.01.12-10.35.55:111][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelStartowy.LevelStartowy to /Game/UEDPIE_0_LevelStartowy.LevelStartowy (0.034616s)
+[2016.01.12-10.35.55:126][486]LogInit: XAudio2 using 'Głośniki / Słuchawki (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.12-10.35.55:142][486]LogInit: FAudioDevice initialized.
+[2016.01.12-10.35.55:175][486]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.12-10.35.55:191][486]LogWorld: Bringing World /Game/UEDPIE_0_LevelStartowy.LevelStartowy up for play (max tick rate 0) at 2016.01.12-11.35.55
+[2016.01.12-10.35.55:191][486]LogActor:Warning: GameSession /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.35.55:192][486]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.35.55:192][486]LogWorld: Bringing up level for play took: 0.015883
+[2016.01.12-10.35.55:197][486]PIE:Warning: Warning The widget 'GameHUD_C' was already added to the screen.
+[2016.01.12-10.35.55:197][486]PIE: Info Play in editor start time for /Game/UEDPIE_0_LevelStartowy 0.054
+[2016.01.12-10.35.55:197][486]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.35.57:311][559]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.01.12-10.35.57:462][564]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.01.12-10.35.57:973][583]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.01.12-10.35.58:168][590]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.01.12-10.35.58:325][596]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.01.12-10.35.58:499][602]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.01.12-10.35.58:680][609]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.01.12-10.35.59:282][631]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.01.12-10.35.59:508][639]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.01.12-10.35.59:729][647]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.01.12-10.35.59:888][653]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.01.12-10.36.00:081][660]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.01.12-10.36.00:236][666]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.01.12-10.36.00:435][673]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.01.12-10.36.01:067][696]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.01.12-10.36.01:247][703]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.01.12-10.36.01:874][726]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.36.01:928][726]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.36.01:954][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290D810E660
+[2016.01.12-10.36.18:005][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelStartowy" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.12-10.36.18:970][395]LogSavePackage: Save=941.360962ms
+[2016.01.12-10.36.18:970][395]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/LevelStartowy955A3049429C4F881FDE15B304ADBA75.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap'
+[2016.01.12-10.36.18:972][395]LogSavePackage: Total save time: 951.005958ms
+[2016.01.12-10.36.18:972][395]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap
+[2016.01.12-10.36.20:189][451]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.36.20:189][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.12-10.36.20:189][451]PIE: New page: PIE session: LevelStartowy (Jan 12, 2016, 12:36:20 PM)
+[2016.01.12-10.36.20:190][451]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelStartowy
+[2016.01.12-10.36.20:224][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033689s)
+[2016.01.12-10.36.20:225][451]LogAIModule: Creating AISystem for world LevelStartowy
+[2016.01.12-10.36.20:225][451]LogPlayLevel: PIE: World Init took: (0.001085s)
+[2016.01.12-10.36.20:225][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelStartowy.LevelStartowy to /Game/UEDPIE_0_LevelStartowy.LevelStartowy (0.035021s)
+[2016.01.12-10.36.20:240][451]LogInit: XAudio2 using 'Głośniki / Słuchawki (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.12-10.36.20:256][451]LogInit: FAudioDevice initialized.
+[2016.01.12-10.36.20:291][451]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.12-10.36.20:308][451]LogWorld: Bringing World /Game/UEDPIE_0_LevelStartowy.LevelStartowy up for play (max tick rate 0) at 2016.01.12-11.36.20
+[2016.01.12-10.36.20:308][451]LogActor:Warning: GameSession /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.36.20:308][451]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.36.20:309][451]LogWorld: Bringing up level for play took: 0.016514
+[2016.01.12-10.36.20:314][451]PIE:Warning: Warning The widget 'GameHUD_C' was already added to the screen.
+[2016.01.12-10.36.20:314][451]PIE: Info Play in editor start time for /Game/UEDPIE_0_LevelStartowy -0.829
+[2016.01.12-10.36.20:314][451]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.36.20:958][471]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Hello
+[2016.01.12-10.36.21:158][478]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Hello
+[2016.01.12-10.36.21:341][485]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Hello
+[2016.01.12-10.36.21:492][490]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Hello
+[2016.01.12-10.36.21:675][497]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Hello
+[2016.01.12-10.36.21:849][503]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Hello
+[2016.01.12-10.36.22:030][510]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Hello
+[2016.01.12-10.36.22:876][541]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Hello
+[2016.01.12-10.36.23:068][548]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Hello
+[2016.01.12-10.36.23:245][555]LogBlueprintUserMessages: [ThirdPersonCharacter_C_2] Hello
+[2016.01.12-10.36.23:835][577]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.36.23:890][577]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.36.23:919][577]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290D00C8680
+[2016.01.12-10.36.29:507][802]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.12-10.36.29:943][802]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 107 classes and 0 folders.
+[2016.01.12-10.36.49:811][417]BlueprintLog: New page: Compile Button
+[2016.01.12-10.36.49:981][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Button" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Button.uasset" SILENT=true
+[2016.01.12-10.36.50:081][417]LogSavePackage: Save=75.880699ms
+[2016.01.12-10.36.50:081][417]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/ButtonADFD90B541FD6E066C35A09B77ABAB17.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Button.uasset'
+[2016.01.12-10.36.50:084][417]LogSavePackage: Total save time: 98.548524ms
+[2016.01.12-10.36.50:084][417]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Button.uasset
+[2016.01.12-10.36.50:088][417]BlueprintEditorCompileResults: Info [0139.36] Compile of Button successful! [in 275 ms]
+[2016.01.12-10.36.51:088][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelStartowy" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.12-10.36.52:121][446]LogSavePackage: Save=885.603760ms
+[2016.01.12-10.36.52:122][446]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/LevelStartowy235E251946A62085F825899F41252D1F.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap'
+[2016.01.12-10.36.52:126][446]LogSavePackage: Total save time: 1010.755282ms
+[2016.01.12-10.36.52:126][446]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap
+[2016.01.12-10.36.52:150][446]LogFileHelpers: Saving map 'LevelStartowy' took 1.153
+[2016.01.12-10.37.03:987][823]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290D810F7E0
+[2016.01.12-10.37.04:027][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Chest" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset" SILENT=true
+[2016.01.12-10.37.04:120][823]LogSavePackage: Save=78.490990ms
+[2016.01.12-10.37.04:120][823]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/ChestCBC011A244BF6FD4586A7E8C4563116C.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset'
+[2016.01.12-10.37.04:124][823]LogSavePackage: Total save time: 93.965512ms
+[2016.01.12-10.37.04:124][823]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset
+[2016.01.12-10.37.04:767][845]BlueprintLog: New page: Compile Chest
+[2016.01.12-10.37.04:908][845]BlueprintEditorCompileResults: Info [0154.18] Compile of Chest successful! [in 140 ms]
+[2016.01.12-10.37.08:087][944]BlueprintLog: New page: Compile Button
+[2016.01.12-10.37.08:206][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290ECE7ED40
+[2016.01.12-10.37.08:215][944]BlueprintEditorCompileResults: Info [0157.49] Compile of Button successful! [in 127 ms]
+[2016.01.12-10.37.08:761][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelStartowy" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.12-10.37.09:718][957]LogSavePackage: Save=922.808105ms
+[2016.01.12-10.37.09:726][957]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/LevelStartowy67D51FE54B88B523CF5D63B959CB9FD9.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap'
+[2016.01.12-10.37.09:733][957]LogSavePackage: Total save time: 944.797609ms
+[2016.01.12-10.37.09:733][957]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap
+[2016.01.12-10.37.09:768][957]LogFileHelpers: Saving map 'LevelStartowy' took 1.106
+[2016.01.12-10.37.19:643][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290EC163E20
+[2016.01.12-10.37.27:764][567]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.37.27:764][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.12-10.37.27:765][567]PIE: New page: PIE session: LevelStartowy (Jan 12, 2016, 12:37:27 PM)
+[2016.01.12-10.37.27:765][567]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelStartowy
+[2016.01.12-10.37.27:799][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034278s)
+[2016.01.12-10.37.27:800][567]LogAIModule: Creating AISystem for world LevelStartowy
+[2016.01.12-10.37.27:800][567]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2016.01.12-10.37.27:800][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelStartowy.LevelStartowy to /Game/UEDPIE_0_LevelStartowy.LevelStartowy (0.035564s)
+[2016.01.12-10.37.27:823][567]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290AED16F20
+[2016.01.12-10.37.27:829][567]LogInit: XAudio2 using 'Głośniki / Słuchawki (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.12-10.37.27:845][567]LogInit: FAudioDevice initialized.
+[2016.01.12-10.37.27:879][567]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.12-10.37.27:895][567]LogWorld: Bringing World /Game/UEDPIE_0_LevelStartowy.LevelStartowy up for play (max tick rate 0) at 2016.01.12-11.37.27
+[2016.01.12-10.37.27:895][567]LogActor:Warning: GameSession /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.37.27:896][567]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.37.27:896][567]LogWorld: Bringing up level for play took: 0.016607
+[2016.01.12-10.37.27:901][567]PIE:Warning: Warning The widget 'GameHUD_C' was already added to the screen.
+[2016.01.12-10.37.27:901][567]PIE: Info Play in editor start time for /Game/UEDPIE_0_LevelStartowy 0.758
+[2016.01.12-10.37.27:901][567]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.37.30:564][660]LogBlueprintUserMessages: [ThirdPersonCharacter_C_3] Hello
+[2016.01.12-10.37.31:657][700]LogBlueprintUserMessages: [ThirdPersonCharacter_C_3] Hello
+[2016.01.12-10.37.32:463][729]LogBlueprintUserMessages: [ThirdPersonCharacter_C_3] Hello
+[2016.01.12-10.37.32:698][738]LogBlueprintUserMessages: [ThirdPersonCharacter_C_3] Hello
+[2016.01.12-10.37.32:949][747]LogBlueprintUserMessages: [ThirdPersonCharacter_C_3] Hello
+[2016.01.12-10.37.33:329][761]LogBlueprintUserMessages: [ThirdPersonCharacter_C_3] Hello
+[2016.01.12-10.37.33:634][772]LogBlueprintUserMessages: [ThirdPersonCharacter_C_3] Hello
+[2016.01.12-10.37.34:570][806]LogBlueprintUserMessages: [ThirdPersonCharacter_C_3] Hello
+[2016.01.12-10.37.34:793][814]LogBlueprintUserMessages: [ThirdPersonCharacter_C_3] Hello
+[2016.01.12-10.37.35:002][822]LogBlueprintUserMessages: [ThirdPersonCharacter_C_3] Hello
+[2016.01.12-10.37.35:250][831]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.37.35:304][831]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.37.35:345][831]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290D8553560
+[2016.01.12-10.37.54:171][648]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.12-10.38.04:533][892]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.38.04:533][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.12-10.38.04:533][892]PIE: New page: PIE session: LevelStartowy (Jan 12, 2016, 12:38:04 PM)
+[2016.01.12-10.38.04:533][892]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelStartowy
+[2016.01.12-10.38.04:569][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035943s)
+[2016.01.12-10.38.04:570][892]LogAIModule: Creating AISystem for world LevelStartowy
+[2016.01.12-10.38.04:570][892]LogPlayLevel: PIE: World Init took: (0.001140s)
+[2016.01.12-10.38.04:571][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelStartowy.LevelStartowy to /Game/UEDPIE_0_LevelStartowy.LevelStartowy (0.037336s)
+[2016.01.12-10.38.04:571][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.12-10.38.04:599][892]LogInit: XAudio2 using 'Głośniki / Słuchawki (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.12-10.38.04:616][892]LogInit: FAudioDevice initialized.
+[2016.01.12-10.38.04:663][892]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.12-10.38.04:690][892]LogWorld: Bringing World /Game/UEDPIE_0_LevelStartowy.LevelStartowy up for play (max tick rate 0) at 2016.01.12-11.38.04
+[2016.01.12-10.38.04:690][892]LogActor:Warning: GameSession /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.38.04:690][892]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.38.04:691][892]LogWorld: Bringing up level for play took: 0.026124
+[2016.01.12-10.38.04:697][892]PIE:Warning: Warning The widget 'GameHUD_C' was already added to the screen.
+[2016.01.12-10.38.04:697][892]PIE: Info Play in editor start time for /Game/UEDPIE_0_LevelStartowy -0.445
+[2016.01.12-10.38.04:698][892]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.38.06:066][924]LogBlueprintUserMessages: [ThirdPersonCharacter_C_5] Hello
+[2016.01.12-10.38.07:959][972]LogBlueprintUserMessages: [ThirdPersonCharacter_C_5] Hello
+[2016.01.12-10.38.08:673][990]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.38.08:745][990]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.38.08:793][990]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290FD562B60
+[2016.01.12-10.38.11:252][ 57]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.38.11:252][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.12-10.38.11:252][ 57]PIE: New page: PIE session: LevelStartowy (Jan 12, 2016, 12:38:11 PM)
+[2016.01.12-10.38.11:252][ 57]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelStartowy
+[2016.01.12-10.38.11:287][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034256s)
+[2016.01.12-10.38.11:288][ 57]LogAIModule: Creating AISystem for world LevelStartowy
+[2016.01.12-10.38.11:288][ 57]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2016.01.12-10.38.11:288][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelStartowy.LevelStartowy to /Game/UEDPIE_0_LevelStartowy.LevelStartowy (0.035461s)
+[2016.01.12-10.38.11:318][ 57]LogInit: XAudio2 using 'Głośniki / Słuchawki (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.12-10.38.11:334][ 57]LogInit: FAudioDevice initialized.
+[2016.01.12-10.38.11:371][ 57]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.12-10.38.11:388][ 57]LogWorld: Bringing World /Game/UEDPIE_0_LevelStartowy.LevelStartowy up for play (max tick rate 0) at 2016.01.12-11.38.11
+[2016.01.12-10.38.11:388][ 57]LogActor:Warning: GameSession /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.38.11:388][ 57]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.38.11:389][ 57]LogWorld: Bringing up level for play took: 0.016451
+[2016.01.12-10.38.11:394][ 57]PIE:Warning: Warning The widget 'GameHUD_C' was already added to the screen.
+[2016.01.12-10.38.11:394][ 57]PIE: Info Play in editor start time for /Game/UEDPIE_0_LevelStartowy 0.251
+[2016.01.12-10.38.11:394][ 57]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.38.11:803][ 66]LogBlueprintUserMessages: [ThirdPersonCharacter_C_6] Hello
+[2016.01.12-10.38.12:320][ 79]LogBlueprintUserMessages: [ThirdPersonCharacter_C_6] Hello
+[2016.01.12-10.38.12:894][ 93]LogBlueprintUserMessages: [ThirdPersonCharacter_C_6] Hello
+[2016.01.12-10.38.13:851][117]LogBlueprintUserMessages: [ThirdPersonCharacter_C_6] Hello
+[2016.01.12-10.38.14:453][132]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.38.14:527][132]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.38.14:592][132]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029081F53240
+[2016.01.12-10.38.24:119][419]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.01.12-10.38.24:238][419]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.12-10.38.24:309][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2016.01.12-10.38.24:427][419]LogSavePackage: Save=104.799477ms
+[2016.01.12-10.38.24:428][419]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/ThirdPersonCharacter9C183C60443C3E2F7D0695874821FA2A.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.01.12-10.38.24:431][419]LogSavePackage: Total save time: 119.858801ms
+[2016.01.12-10.38.24:431][419]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.01.12-10.38.24:435][419]BlueprintEditorCompileResults: Info [0233.71] Compile of ThirdPersonCharacter successful! [in 316 ms]
+[2016.01.12-10.38.24:901][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2016.01.12-10.38.25:005][432]LogSavePackage: Save=94.933990ms
+[2016.01.12-10.38.25:005][432]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/ThirdPersonCharacter82CB1916482447BADADA058B2663A658.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.01.12-10.38.25:007][432]LogSavePackage: Total save time: 103.634752ms
+[2016.01.12-10.38.25:007][432]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.01.12-10.38.25:373][445]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.12-10.38.25:473][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Chest" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset" SILENT=true
+[2016.01.12-10.38.25:552][445]LogSavePackage: Save=59.060757ms
+[2016.01.12-10.38.25:552][445]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/Chest92FC60354CF20ACA31C9BB9F607F0C30.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset'
+[2016.01.12-10.38.25:556][445]LogSavePackage: Total save time: 70.799448ms
+[2016.01.12-10.38.25:556][445]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset
+[2016.01.12-10.38.37:763][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Chest" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset" SILENT=true
+[2016.01.12-10.38.37:831][810]LogSavePackage: Save=56.373955ms
+[2016.01.12-10.38.37:831][810]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/ChestA5575DEE4552B2E8AE379DB1F7C601AF.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset'
+[2016.01.12-10.38.37:834][810]LogSavePackage: Total save time: 66.798016ms
+[2016.01.12-10.38.37:834][810]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset
+[2016.01.12-10.38.38:295][826]BlueprintLog: New page: Compile Chest
+[2016.01.12-10.38.38:421][826]BlueprintEditorCompileResults: Info [0247.70] Compile of Chest successful! [in 125 ms]
+[2016.01.12-10.38.40:110][891]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.38.40:110][891]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.12-10.38.40:110][891]PIE: New page: PIE session: LevelStartowy (Jan 12, 2016, 12:38:40 PM)
+[2016.01.12-10.38.40:110][891]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelStartowy
+[2016.01.12-10.38.40:145][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034954s)
+[2016.01.12-10.38.40:146][891]LogAIModule: Creating AISystem for world LevelStartowy
+[2016.01.12-10.38.40:146][891]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2016.01.12-10.38.40:146][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelStartowy.LevelStartowy to /Game/UEDPIE_0_LevelStartowy.LevelStartowy (0.036261s)
+[2016.01.12-10.38.40:176][891]LogInit: XAudio2 using 'Głośniki / Słuchawki (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.12-10.38.40:192][891]LogInit: FAudioDevice initialized.
+[2016.01.12-10.38.40:230][891]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.12-10.38.40:247][891]LogWorld: Bringing World /Game/UEDPIE_0_LevelStartowy.LevelStartowy up for play (max tick rate 0) at 2016.01.12-11.38.40
+[2016.01.12-10.38.40:247][891]LogActor:Warning: GameSession /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.38.40:247][891]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.38.40:248][891]LogWorld: Bringing up level for play took: 0.016564
+[2016.01.12-10.38.40:253][891]PIE:Warning: Warning The widget 'GameHUD_C' was already added to the screen.
+[2016.01.12-10.38.40:253][891]PIE: Info Play in editor start time for /Game/UEDPIE_0_LevelStartowy 1.11
+[2016.01.12-10.38.40:253][891]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.38.56:243][316]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.38.56:304][316]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.38.56:333][316]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002908149A980
+[2016.01.12-10.39.36:444][562]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.12-10.39.36:582][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelStartowy" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.12-10.39.37:513][562]LogSavePackage: Save=894.724060ms
+[2016.01.12-10.39.37:515][562]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/LevelStartowy39313444493E8A7DFDFC8F99C8A9D1D3.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap'
+[2016.01.12-10.39.37:520][562]LogSavePackage: Total save time: 907.987934ms
+[2016.01.12-10.39.37:520][562]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap
+[2016.01.12-10.39.37:546][562]LogFileHelpers: Saving map 'LevelStartowy' took 1.047
+[2016.01.12-10.39.37:583][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2016.01.12-10.39.37:701][562]LogSavePackage: Save=109.966568ms
+[2016.01.12-10.39.37:702][562]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/ThirdPersonCharacter560D325C4B59E0370924E2ADB33AC41B.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.01.12-10.39.37:705][562]LogSavePackage: Total save time: 120.786849ms
+[2016.01.12-10.39.37:705][562]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.01.12-10.39.38:075][574]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.01.12-10.39.38:220][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.12-10.39.38:257][574]BlueprintEditorCompileResults: Info [0307.53] Compile of ThirdPersonCharacter successful! [in 181 ms]
+[2016.01.12-10.39.40:166][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.12-10.39.43:611][759]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.01.12-10.39.43:611][759]Can't find target actor or component.
+[2016.01.12-10.39.44:039][778]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.01.12-10.39.44:039][778]Can't find target actor or component.
+[2016.01.12-10.39.44:861][815]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.39.44:861][815]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.01.12-10.39.44:870][815]LogPlayLevel: [PlayLevel] Compiling Chest before play...
+[2016.01.12-10.39.45:004][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Chest" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset" SILENT=true
+[2016.01.12-10.39.45:068][815]LogSavePackage: Save=54.323170ms
+[2016.01.12-10.39.45:068][815]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/Chest1A2B8670480664B970B28D9AD3D9AE1F.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset'
+[2016.01.12-10.39.45:072][815]LogSavePackage: Total save time: 64.736344ms
+[2016.01.12-10.39.45:072][815]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset
+[2016.01.12-10.39.45:075][815]LogPlayLevel: PlayLevel: Blueprint regeneration took 213 ms (2 blueprints)
+[2016.01.12-10.39.45:075][815]LogPlayLevel: [PlayLevel] Compiling LevelStartowy before play...
+[2016.01.12-10.39.45:123][815]LogPlayLevel: PlayLevel: Blueprint regeneration took 261 ms (2 blueprints)
+[2016.01.12-10.39.45:153][815]PIE: New page: PIE session: LevelStartowy (Jan 12, 2016, 12:39:45 PM)
+[2016.01.12-10.39.45:153][815]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelStartowy
+[2016.01.12-10.39.45:185][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032223s)
+[2016.01.12-10.39.45:186][815]LogAIModule: Creating AISystem for world LevelStartowy
+[2016.01.12-10.39.45:186][815]LogPlayLevel: PIE: World Init took: (0.001093s)
+[2016.01.12-10.39.45:186][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelStartowy.LevelStartowy to /Game/UEDPIE_0_LevelStartowy.LevelStartowy (0.033554s)
+[2016.01.12-10.39.45:215][815]LogInit: XAudio2 using 'Głośniki / Słuchawki (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.12-10.39.45:231][815]LogInit: FAudioDevice initialized.
+[2016.01.12-10.39.45:266][815]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.12-10.39.45:282][815]LogWorld: Bringing World /Game/UEDPIE_0_LevelStartowy.LevelStartowy up for play (max tick rate 0) at 2016.01.12-11.39.45
+[2016.01.12-10.39.45:282][815]LogActor:Warning: GameSession /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.39.45:283][815]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.39.45:283][815]LogWorld: Bringing up level for play took: 0.015839
+[2016.01.12-10.39.45:288][815]PIE:Warning: Warning The widget 'GameHUD_C' was already added to the screen.
+[2016.01.12-10.39.45:288][815]PIE: Info Play in editor start time for /Game/UEDPIE_0_LevelStartowy 0.146
+[2016.01.12-10.39.45:289][815]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.39.45:904][834]LogBlueprintUserMessages: [ThirdPersonCharacter_C_6] Hello
+[2016.01.12-10.39.46:211][845]LogBlueprintUserMessages: [ThirdPersonCharacter_C_6] Hello
+[2016.01.12-10.39.46:439][853]LogBlueprintUserMessages: [ThirdPersonCharacter_C_6] Hello
+[2016.01.12-10.39.47:004][874]LogBlueprintUserMessages: [ThirdPersonCharacter_C_6] Hello
+[2016.01.12-10.39.48:268][921]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.39.48:320][921]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.39.48:366][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290D810DEE0
+[2016.01.12-10.40.46:652][ 97]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.12-10.40.52:476][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.01.12-10.40.59:091][483]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.01.12-10.40.59:212][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.01.12-10.40.59:282][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2016.01.12-10.40.59:402][483]LogSavePackage: Save=110.526695ms
+[2016.01.12-10.40.59:402][483]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/ThirdPersonCharacter8497418F47C7B1B74CA998BE8D79AD5B.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.01.12-10.40.59:406][483]LogSavePackage: Total save time: 121.072665ms
+[2016.01.12-10.40.59:406][483]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.01.12-10.40.59:409][483]BlueprintEditorCompileResults: Info [0388.68] Compile of ThirdPersonCharacter successful! [in 318 ms]
+[2016.01.12-10.40.59:649][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2016.01.12-10.40.59:805][489]LogSavePackage: Save=101.113098ms
+[2016.01.12-10.40.59:805][489]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/ThirdPersonCharacterA1B54B0A4FC7ABC73FDBADA6C222E359.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.01.12-10.40.59:807][489]LogSavePackage: Total save time: 110.613152ms
+[2016.01.12-10.40.59:807][489]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.01.12-10.41.37:222][649]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.12-10.41.55:492][208]BlueprintLog: New page: Compile Chest
+[2016.01.12-10.41.55:661][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Chest" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset" SILENT=true
+[2016.01.12-10.41.55:732][208]LogSavePackage: Save=61.095371ms
+[2016.01.12-10.41.55:732][208]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/ChestA42E120343BD551DC64A88B869894A3B.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset'
+[2016.01.12-10.41.55:736][208]LogSavePackage: Total save time: 71.718786ms
+[2016.01.12-10.41.55:736][208]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset
+[2016.01.12-10.41.55:739][208]BlueprintEditorCompileResults: Info [0445.01] Compile of Chest successful! [in 247 ms]
+[2016.01.12-10.41.56:268][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelStartowy" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.12-10.41.57:414][221]LogSavePackage: Save=950.414734ms
+[2016.01.12-10.41.57:415][221]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/LevelStartowy1A898C594DCC22021CDA49A7E0948B45.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap'
+[2016.01.12-10.41.57:420][221]LogSavePackage: Total save time: 1105.941501ms
+[2016.01.12-10.41.57:420][221]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap
+[2016.01.12-10.41.57:445][221]LogFileHelpers: Saving map 'LevelStartowy' took 1.265
+[2016.01.12-10.41.59:002][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.41.59:002][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.12-10.41.59:003][284]PIE: New page: PIE session: LevelStartowy (Jan 12, 2016, 12:41:59 PM)
+[2016.01.12-10.41.59:003][284]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelStartowy
+[2016.01.12-10.41.59:039][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035935s)
+[2016.01.12-10.41.59:040][284]LogAIModule: Creating AISystem for world LevelStartowy
+[2016.01.12-10.41.59:040][284]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2016.01.12-10.41.59:040][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelStartowy.LevelStartowy to /Game/UEDPIE_0_LevelStartowy.LevelStartowy (0.037148s)
+[2016.01.12-10.41.59:074][284]LogInit: XAudio2 using 'Głośniki / Słuchawki (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.12-10.41.59:091][284]LogInit: FAudioDevice initialized.
+[2016.01.12-10.41.59:128][284]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.12-10.41.59:145][284]LogWorld: Bringing World /Game/UEDPIE_0_LevelStartowy.LevelStartowy up for play (max tick rate 0) at 2016.01.12-11.41.59
+[2016.01.12-10.41.59:145][284]LogActor:Warning: GameSession /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.41.59:145][284]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.41.59:146][284]LogWorld: Bringing up level for play took: 0.016257
+[2016.01.12-10.41.59:150][284]PIE:Warning: Warning The widget 'GameHUD_C' was already added to the screen.
+[2016.01.12-10.41.59:151][284]PIE: Info Play in editor start time for /Game/UEDPIE_0_LevelStartowy 0.008
+[2016.01.12-10.41.59:151][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.42.06:889][568]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.42.06:944][568]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.42.06:993][568]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290FD563A60
+[2016.01.12-10.42.23:045][ 85]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Chest.Chest:EventGraph.K2Node_MacroInstance_26.EdGraphPin_29242) from referencer (EdGraphPin /Game/Blueprints/Button.Button:EventGraph.K2Node_CustomEvent_60.EdGraphPin_30465).  Import failed...
+[2016.01.12-10.42.23:045][ 85]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_26.EdGraphPin_29242''
+[2016.01.12-10.42.23:045][ 85]LogUObjectHash:Warning: Ambiguous search, could be K2Node_AssignDelegate /Game/Blueprints/Button.Button:EventGraph.K2Node_AssignDelegate_199 or K2Node_AssignDelegate /Game/Blueprints/Chest.Chest:EventGraph.K2Node_AssignDelegate_199
+[2016.01.12-10.42.23:045][ 85]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Chest.Chest:EventGraph.K2Node_AssignDelegate_199.EdGraphPin_30461) from referencer (EdGraphPin /Game/Blueprints/Button.Button:EventGraph.K2Node_CustomEvent_60.EdGraphPin_30464).  Import failed...
+[2016.01.12-10.42.23:045][ 85]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_AssignDelegate_199.EdGraphPin_30461''
+[2016.01.12-10.42.23:045][ 85]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/Chest.Chest:EventGraph.K2Node_DynamicCast_499 or K2Node_DynamicCast /Game/Blueprints/Button.Button:EventGraph.K2Node_DynamicCast_499
+[2016.01.12-10.42.23:045][ 85]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Chest.Chest:EventGraph.K2Node_DynamicCast_499.EdGraphPin_30446) from referencer (EdGraphPin /Game/Blueprints/Button.Button:EventGraph.K2Node_CallFunction_3072.EdGraphPin_30423).  Import failed...
+[2016.01.12-10.42.23:045][ 85]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_499.EdGraphPin_30446''
+[2016.01.12-10.42.23:046][ 85]LogUObjectHash:Warning: Ambiguous search, could be K2Node_AssignDelegate /Game/Blueprints/Button.Button:EventGraph.K2Node_AssignDelegate_199 or K2Node_AssignDelegate /Game/Blueprints/Chest.Chest:EventGraph.K2Node_AssignDelegate_199
+[2016.01.12-10.42.23:046][ 85]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Chest.Chest:EventGraph.K2Node_AssignDelegate_199.EdGraphPin_30460) from referencer (EdGraphPin /Game/Blueprints/Button.Button:EventGraph.K2Node_DynamicCast_499.EdGraphPin_30447).  Import failed...
+[2016.01.12-10.42.23:046][ 85]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_AssignDelegate_199.EdGraphPin_30460''
+[2016.01.12-10.42.23:046][ 85]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/Button.Button:EventGraph.K2Node_Event_310 or K2Node_Event /Game/Blueprints/Chest.Chest:EventGraph.K2Node_Event_310
+[2016.01.12-10.42.23:046][ 85]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Chest.Chest:EventGraph.K2Node_Event_310.EdGraphPin_30554) from referencer (EdGraphPin /Game/Blueprints/Button.Button:EventGraph.K2Node_AssignDelegate_199.EdGraphPin_30458).  Import failed...
+[2016.01.12-10.42.23:046][ 85]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_310.EdGraphPin_30554''
+[2016.01.12-10.42.29:075][274]BlueprintLog: New page: Compile Button
+[2016.01.12-10.42.29:254][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Button" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Button.uasset" SILENT=true
+[2016.01.12-10.42.29:353][274]LogSavePackage: Save=74.626091ms
+[2016.01.12-10.42.29:353][274]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/Button6F2ED62442520C48F39E6DAD19536DBA.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Button.uasset'
+[2016.01.12-10.42.29:357][274]LogSavePackage: Total save time: 88.536240ms
+[2016.01.12-10.42.29:357][274]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Button.uasset
+[2016.01.12-10.42.29:360][274]BlueprintEditorCompileResults: Info [0478.63] Compile of Button successful! [in 284 ms]
+[2016.01.12-10.43.06:208][419]LogEditorTransaction: Undo Delete current selection
+[2016.01.12-10.43.06:258][419]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.12-10.43.06:615][429]LogEditorTransaction: Undo Rename Event Dispatcher
+[2016.01.12-10.43.33:304][256]BlueprintLog: New page: Compile Chest
+[2016.01.12-10.43.33:377][256]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.01.12-10.43.33:457][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Chest" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset" SILENT=true
+[2016.01.12-10.43.33:545][256]LogSavePackage: Save=74.456589ms
+[2016.01.12-10.43.33:545][256]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/ChestD2FFDF4046C9646FB46BA2B5FFD41920.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset'
+[2016.01.12-10.43.33:549][256]LogSavePackage: Total save time: 88.891100ms
+[2016.01.12-10.43.33:549][256]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset
+[2016.01.12-10.43.33:553][256]BlueprintEditorCompileResults: Info [0542.83] Compile of Chest successful! [in 248 ms]
+[2016.01.12-10.43.34:611][290]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.01.12-10.43.34:907][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2016.01.12-10.43.35:032][290]LogSavePackage: Save=110.973297ms
+[2016.01.12-10.43.35:032][290]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/ThirdPersonCharacter9BF6BC234D4CDBD7FAC006B0E3D4037D.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.01.12-10.43.35:036][290]LogSavePackage: Total save time: 126.472078ms
+[2016.01.12-10.43.35:036][290]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.01.12-10.43.35:040][290]BlueprintEditorCompileResults: Info [0544.31] Compile of ThirdPersonCharacter successful! [in 428 ms]
+[2016.01.12-10.43.41:757][496]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.12-10.43.52:419][829]BlueprintLog: New page: Compile Chest
+[2016.01.12-10.43.52:605][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Chest" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset" SILENT=true
+[2016.01.12-10.43.52:676][829]LogSavePackage: Save=59.274418ms
+[2016.01.12-10.43.52:676][829]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/ChestF741667D4706C1C5DB7126BB62D8A3B6.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset'
+[2016.01.12-10.43.52:679][829]LogSavePackage: Total save time: 69.942620ms
+[2016.01.12-10.43.52:679][829]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset
+[2016.01.12-10.43.52:682][829]BlueprintEditorCompileResults: Info [0561.96] Compile of Chest successful! [in 262 ms]
+[2016.01.12-10.44.04:299][192]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.01.12-10.44.04:456][192]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.12-10.44.04:549][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2016.01.12-10.44.04:669][192]LogSavePackage: Save=109.716515ms
+[2016.01.12-10.44.04:669][192]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/ThirdPersonCharacterA9D82D4D46EB3EBFC9ECFDBD1A355A4C.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.01.12-10.44.04:672][192]LogSavePackage: Total save time: 120.993983ms
+[2016.01.12-10.44.04:672][192]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.01.12-10.44.04:676][192]BlueprintEditorCompileResults: Info [0573.95] Compile of ThirdPersonCharacter successful! [in 376 ms]
+[2016.01.12-10.44.07:193][271]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.12-10.44.07:334][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelStartowy" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.12-10.44.08:322][271]LogSavePackage: Save=887.932556ms
+[2016.01.12-10.44.08:323][271]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/LevelStartowy535968AC402538961797D0A0E5D6A72D.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap'
+[2016.01.12-10.44.08:328][271]LogSavePackage: Total save time: 900.746420ms
+[2016.01.12-10.44.08:328][271]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap
+[2016.01.12-10.44.08:352][271]LogFileHelpers: Saving map 'LevelStartowy' took 1.103
+[2016.01.12-10.44.14:412][461]BlueprintLog: New page: Compile Button
+[2016.01.12-10.44.14:526][461]BlueprintEditorCompileResults: Info [0583.80] Compile of Button successful! [in 113 ms]
+[2016.01.12-10.44.15:239][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelStartowy" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.12-10.44.16:172][480]LogSavePackage: Save=896.456360ms
+[2016.01.12-10.44.16:172][480]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/LevelStartowy3C9CDEDF4008C680FB5AA8AC65231EF2.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap'
+[2016.01.12-10.44.16:177][480]LogSavePackage: Total save time: 908.455998ms
+[2016.01.12-10.44.16:177][480]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap
+[2016.01.12-10.44.16:206][480]LogFileHelpers: Saving map 'LevelStartowy' took 1.050
+[2016.01.12-10.44.25:629][778]BlueprintLog: New page: Compile Button
+[2016.01.12-10.44.25:782][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Button" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Button.uasset" SILENT=true
+[2016.01.12-10.44.25:865][778]LogSavePackage: Save=73.217224ms
+[2016.01.12-10.44.25:865][778]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/ButtonFD2522804A041453EE902D80A9D50BF5.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Button.uasset'
+[2016.01.12-10.44.25:869][778]LogSavePackage: Total save time: 84.241841ms
+[2016.01.12-10.44.25:869][778]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Button.uasset
+[2016.01.12-10.44.25:872][778]BlueprintEditorCompileResults: Info [0595.15] Compile of Button successful! [in 243 ms]
+[2016.01.12-10.44.32:444][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelStartowy" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.12-10.44.33:386][981]LogSavePackage: Save=904.101563ms
+[2016.01.12-10.44.33:386][981]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/LevelStartowyBFF7E5D4498CF7F79F5546AD92D13EEA.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap'
+[2016.01.12-10.44.33:390][981]LogSavePackage: Total save time: 916.046467ms
+[2016.01.12-10.44.33:390][981]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/LevelStartowy.umap
+[2016.01.12-10.44.33:421][981]LogFileHelpers: Saving map 'LevelStartowy' took 1.060
+[2016.01.12-10.44.33:440][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Chest" FILE="F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset" SILENT=true
+[2016.01.12-10.44.33:508][981]LogSavePackage: Save=58.574028ms
+[2016.01.12-10.44.33:508][981]LogSavePackage: Moving 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Saved/Chest8D8799F84E84CA1D6A769F92CA31FB5F.tmp' to 'F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset'
+[2016.01.12-10.44.33:512][981]LogSavePackage: Total save time: 69.483258ms
+[2016.01.12-10.44.33:512][981]LogSavePackage:Display: Finished SavePackage F:/UE ProjektyPC/Cialon/Projekt/Cialon/Content/Blueprints/Chest.uasset
+[2016.01.12-10.44.40:856][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.01.12-10.44.40:917][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.01.12-10.44.42:745][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.44.42:745][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.12-10.44.42:746][284]PIE: New page: PIE session: LevelStartowy (Jan 12, 2016, 12:44:42 PM)
+[2016.01.12-10.44.42:746][284]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelStartowy
+[2016.01.12-10.44.42:780][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034139s)
+[2016.01.12-10.44.42:781][284]LogAIModule: Creating AISystem for world LevelStartowy
+[2016.01.12-10.44.42:781][284]LogPlayLevel: PIE: World Init took: (0.001002s)
+[2016.01.12-10.44.42:781][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelStartowy.LevelStartowy to /Game/UEDPIE_0_LevelStartowy.LevelStartowy (0.035379s)
+[2016.01.12-10.44.42:804][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290CCD2B740
+[2016.01.12-10.44.42:805][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290EC1BF880
+[2016.01.12-10.44.42:806][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029083A9BC40
+[2016.01.12-10.44.42:812][284]LogInit: XAudio2 using 'Głośniki / Słuchawki (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.12-10.44.42:829][284]LogInit: FAudioDevice initialized.
+[2016.01.12-10.44.42:862][284]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.12-10.44.42:879][284]LogWorld: Bringing World /Game/UEDPIE_0_LevelStartowy.LevelStartowy up for play (max tick rate 0) at 2016.01.12-11.44.42
+[2016.01.12-10.44.42:879][284]LogActor:Warning: GameSession /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.44.42:879][284]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.44.42:880][284]LogWorld: Bringing up level for play took: 0.016469
+[2016.01.12-10.44.42:885][284]PIE:Warning: Warning The widget 'GameHUD_C' was already added to the screen.
+[2016.01.12-10.44.42:886][284]PIE: Info Play in editor start time for /Game/UEDPIE_0_LevelStartowy -0.257
+[2016.01.12-10.44.42:886][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.44.45:643][382]LogBlueprintUserMessages: [Button_C_0] Hello
+[2016.01.12-10.44.47:021][432]LogBlueprintUserMessages: [Button_C_0] Hello
+[2016.01.12-10.44.47:445][447]LogBlueprintUserMessages: [Button_C_0] Hello
+[2016.01.12-10.44.47:909][464]LogBlueprintUserMessages: [Button_C_0] Hello
+[2016.01.12-10.44.55:498][747]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.44.55:553][747]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.44.55:595][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002908D08A480
+[2016.01.12-10.45.16:077][517]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.45.16:077][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.12-10.45.16:077][517]PIE: New page: PIE session: LevelStartowy (Jan 12, 2016, 12:45:16 PM)
+[2016.01.12-10.45.16:077][517]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelStartowy
+[2016.01.12-10.45.16:112][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035545s)
+[2016.01.12-10.45.16:113][517]LogAIModule: Creating AISystem for world LevelStartowy
+[2016.01.12-10.45.16:113][517]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2016.01.12-10.45.16:114][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelStartowy.LevelStartowy to /Game/UEDPIE_0_LevelStartowy.LevelStartowy (0.036799s)
+[2016.01.12-10.45.16:141][517]LogInit: XAudio2 using 'Głośniki / Słuchawki (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.12-10.45.16:158][517]LogInit: FAudioDevice initialized.
+[2016.01.12-10.45.16:195][517]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.12-10.45.16:211][517]LogWorld: Bringing World /Game/UEDPIE_0_LevelStartowy.LevelStartowy up for play (max tick rate 0) at 2016.01.12-11.45.16
+[2016.01.12-10.45.16:211][517]LogActor:Warning: GameSession /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.45.16:212][517]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_LevelStartowy.LevelStartowy:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.12-10.45.16:212][517]LogWorld: Bringing up level for play took: 0.016009
+[2016.01.12-10.45.16:217][517]PIE:Warning: Warning The widget 'GameHUD_C' was already added to the screen.
+[2016.01.12-10.45.16:217][517]PIE: Info Play in editor start time for /Game/UEDPIE_0_LevelStartowy 1.074
+[2016.01.12-10.45.16:217][517]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.45.19:280][626]LogBlueprintUserMessages: [Button_C_0] Hello
+[2016.01.12-10.45.20:316][662]LogBlueprintUserMessages: [Button_C_0] Hello
+[2016.01.12-10.45.20:750][677]LogBlueprintUserMessages: [Button_C_0] Hello
+[2016.01.12-10.45.21:198][693]LogBlueprintUserMessages: [Button_C_0] Hello
+[2016.01.12-10.45.23:372][772]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.45.23:443][772]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelStartowy.LevelStartowy:PersistentLevel' has LevelScriptBlueprint '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy' with GeneratedClass '/Game/LevelStartowy.LevelStartowy_C' with ClassGeneratedBy '/Game/LevelStartowy.LevelStartowy:PersistentLevel.LevelStartowy'
+[2016.01.12-10.45.23:473][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002909562D940
+[2016.01.12-10.54.19:756][698]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.12-10.54.19:968][699]Cmd: QUIT_EDITOR
+[2016.01.12-10.54.20:848][699]LogExit: Preparing to exit.
+[2016.01.12-10.54.21:861][699]LogExit: Editor shut down
+[2016.01.12-10.54.21:861][699]LogExit: Transaction tracking system shut down
+[2016.01.12-10.54.21:865][699]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290A7EE9580
+[2016.01.12-10.54.21:867][699]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290C1A68680
+[2016.01.12-10.54.21:867][699]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290C1880E00
+[2016.01.12-10.54.21:867][699]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000290D3DB56C0
+[2016.01.12-10.54.22:069][699]LogExit: Object subsystem successfully closed.
+[2016.01.12-10.54.22:086][699]LogD3D11RHI: Shutdown
+[2016.01.12-10.54.22:086][699]LogD3D11RHI: CleanupD3DDevice
+[2016.01.12-10.54.22:177][699]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.12-10.54.22:199][699]LogModuleManager: Shutting down and abandoning module BlueprintGraph (201)
+[2016.01.12-10.54.22:199][699]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.01.12-10.54.22:199][699]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (199)
+[2016.01.12-10.54.22:199][699]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.01.12-10.54.22:199][699]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.01.12-10.54.22:199][699]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.01.12-10.54.22:199][699]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.01.12-10.54.22:199][699]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.01.12-10.54.22:201][699]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.01.12-10.54.22:201][699]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.01.12-10.54.22:202][699]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.01.12-10.54.22:325][699]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.01.12-10.54.22:325][699]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.01.12-10.54.22:325][699]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.01.12-10.54.22:325][699]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.01.12-10.54.22:325][699]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.01.12-10.54.22:325][699]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.01.12-10.54.22:326][699]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.01.12-10.54.22:327][699]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.01.12-10.54.22:327][699]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.01.12-10.54.22:327][699]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.01.12-10.54.22:327][699]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.01.12-10.54.22:327][699]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.01.12-10.54.22:327][699]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.01.12-10.54.22:327][699]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.01.12-10.54.22:327][699]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.01.12-10.54.22:327][699]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.01.12-10.54.22:327][699]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.01.12-10.54.22:327][699]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.01.12-10.54.22:328][699]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.01.12-10.54.22:328][699]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.01.12-10.54.22:328][699]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.01.12-10.54.22:328][699]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.01.12-10.54.22:328][699]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.01.12-10.54.22:328][699]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.01.12-10.54.22:328][699]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.01.12-10.54.22:328][699]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.01.12-10.54.22:328][699]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.01.12-10.54.22:328][699]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.01.12-10.54.22:328][699]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.01.12-10.54.22:328][699]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.01.12-10.54.22:328][699]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.01.12-10.54.22:328][699]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.01.12-10.54.22:570][699]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.01.12-10.54.22:570][699]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.12-10.54.22:570][699]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.12-10.54.22:571][699]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.12-10.54.22:571][699]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.12-10.54.22:571][699]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.01.12-10.54.22:571][699]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.01.12-10.54.22:571][699]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.12-10.54.22:613][699]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.12-10.54.22:613][699]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.12-10.54.22:613][699]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.12-10.54.22:613][699]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.12-10.54.22:613][699]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.12-10.54.22:614][699]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.12-10.54.22:616][699]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.12-10.54.22:619][699]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.12-10.54.22:851][699]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.12-10.54.22:852][699]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.12-10.54.22:853][699]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.01.12-10.54.22:953][699]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.01.12-10.54.22:953][699]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.01.12-10.54.22:953][699]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.01.12-10.54.22:958][699]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.01.12-10.54.22:958][699]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.01.12-10.54.22:958][699]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.01.12-10.54.22:958][699]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.01.12-10.54.22:958][699]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.01.12-10.54.22:958][699]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.01.12-10.54.22:958][699]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.01.12-10.54.22:958][699]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.01.12-10.54.22:959][699]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.01.12-10.54.22:959][699]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.01.12-10.54.22:959][699]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.01.12-10.54.22:959][699]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.01.12-10.54.22:959][699]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.01.12-10.54.22:959][699]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.01.12-10.54.22:959][699]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.01.12-10.54.22:959][699]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.01.12-10.54.22:965][699]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.01.12-10.54.22:965][699]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.01.12-10.54.22:965][699]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.01.12-10.54.22:965][699]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.01.12-10.54.22:965][699]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.01.12-10.54.22:965][699]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.01.12-10.54.22:965][699]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.01.12-10.54.22:965][699]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.01.12-10.54.22:965][699]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.01.12-10.54.22:965][699]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.01.12-10.54.22:994][699]LogDerivedDataCache: Shutdown
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.01.12-10.54.22:994][699]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.01.12-10.54.22:995][699]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.01.12-10.54.22:995][699]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.01.12-10.54.22:995][699]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.01.12-10.54.22:995][699]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.01.12-10.54.22:995][699]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.01.12-10.54.22:995][699]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.01.12-10.54.22:995][699]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.01.12-10.54.22:995][699]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.01.12-10.54.22:995][699]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.01.12-10.54.24:998][699]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.01.12-10.54.24:998][699]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.01.12-10.54.24:998][699]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.12-10.54.24:998][699]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.12-10.54.24:998][699]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.12-10.54.24:998][699]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.12-10.54.24:998][699]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.12-10.54.25:001][699]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.12-10.54.25:001][699]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.12-10.54.25:001][699]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.12-10.54.25:001][699]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.12-10.54.25:001][699]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.12-10.54.25:001][699]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.12-10.54.25:001][699]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.12-10.54.25:001][699]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.12-10.54.25:001][699]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.12-10.54.25:001][699]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.12-10.54.25:002][699]LogExit: Exiting.
+[2016.01.12-10.54.25:003][699]Log file closed, 01/12/16 11:54:25
